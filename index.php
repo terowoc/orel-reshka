@@ -83,7 +83,7 @@ class Game extends Player
 
 $game = new Game (
 	new Player("Abdulloh", 100),
-	new Player("Sevinch", 100)
+	new Player("Abduhamid", 100)
 );
 
 $game->start();
