@@ -71,11 +71,7 @@ class Game extends Player
 
 	public function winner()
 	{
-		if ($this->player1->bank() > $this->player2->bank()) {
-			return $this->player1;
-		} else {
-			return $this->player2;
-		}
+		return $this->player1->bank() > $this->player2->bank() ? $this->player1 : $this->player2;
 	}
 
 	public function end()
