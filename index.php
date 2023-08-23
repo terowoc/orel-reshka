@@ -1,8 +1,5 @@
 <?php
 
-/**
- * 
- */
 class Player
 {
 	public string $name;
@@ -32,9 +29,7 @@ class Player
 	}
 }
 
-/**
- * 
- */
+
 class Game extends Player
 {
 	
